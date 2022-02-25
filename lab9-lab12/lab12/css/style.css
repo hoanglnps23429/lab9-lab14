@@ -1,0 +1,18 @@
+*/ {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.boxcenter {
+    float: left;
+    width: calc(50% - 20px);
+    min-height: 600px;
+    margin-right: 20px;
+}
+
+.boxcenter img {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}

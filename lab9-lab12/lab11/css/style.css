@@ -1,0 +1,13 @@
+table {
+    margin: 0 auto;
+    border: 2px solid greenyellow;
+}
+
+.header {
+    background-color: green;
+    color: white;
+}
+
+.nav {
+    background-color: rgba(160, 192, 112, 0.904);
+}

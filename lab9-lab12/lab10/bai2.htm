@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+    <div class="contaiter">
+        <form action="">
+            <div class="form-ground">
+                <label for="">HỌ VÀ TÊN:</label><br>
+
+                <input class="form-control">
+            </div>
+            <div class="form-ground">
+                <fieldset>
+                    <legend>GIỚI TÍNH:</legend> <br>
+                    <input type="radio" name="nam" id=""><label for="">nam</label>
+                    <input type="radio" name="" id=""><label for="">nữ</label><br>
+                </fieldset>
+
+            </div>
+            <div class="form-ground">
+                <label for="">NGÀY SINH:</label><br>
+                <input type="date"><br>
+            </div>
+            <div class="form-ground" id="diem">
+                <label for="diem">ĐIỂM:</label><br>
+                <input type="number" name="" id="" min="0" step="0.25"><br>
+            </div>
+            <div class="form-ground">
+                <Label for="nghenhiep"> NGHỀ NGHIỆP:</Label><br>
+                <input type="text" name="" list="ide" id="">
+                <datalist id="ide">
+                
+                <option value="giao vien">giao vien</option>
+                <option value="ky su">ky su</option>
+                <option value="bac si">bac si</option>
+                <option value="luat su">luat su</option>
+                <option value="cong nhan">cong nhan</option>
+            </datalist>
+                <datalist>
+                luatsu
+            </datalist>
+                <br>
+            </div>
+            <div class="form-ground">
+                <fieldset>
+                    <legend> SỞ THÍCH:</legend><br>
+                    <input type="checkbox"><label for="">THỂ THAO</label>
+                    <input type="checkbox" name="" id=""><label for="">DU LỊCH</label>
+                    <input type="checkbox" name="" id=""><label for="">ÂM NHẠC</label>
+                    <input type="checkbox" name="" id=""><label for="">ẨM THỰC</label>
+                </fieldset>
+            </div>
+            <br>
+            <div class="form-ground">
+                <label for="">GHI CHÚ</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <hr>
+            <div>
+                <button>ĐĂNG KÝ</button>
+                <button>NHẬP LẠI</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
